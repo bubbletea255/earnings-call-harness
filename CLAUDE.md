@@ -14,18 +14,6 @@
 - "이전 결과 기반으로 {기업명} 다시 분석해줘"
 - "특정 단계만 다시 실행해줘"
 
-아래 요청이 들어오면 `git-version-manager`를 먼저 사용합니다:
-
-- "v[N]으로 올려줘"
-- "깃허브에 저장해줘"
-- "지금 상태 저장해줘"
-- "v[N]으로 롤백해줘"
-- "v[N] 가져와줘"
-- "이전 버전으로 되돌려줘"
-- "지금 버전 확인해줘"
-- "현재 상태 보여줘"
-- "어떤 버전이야"
-
 ## 주요 위치
 
 | 목적 | 경로 |
@@ -34,7 +22,7 @@
 | Orchestrator | `.claude/skills/earnings-orchestrator/SKILL.md` |
 | Agent 정의 | `.claude/agents/` |
 | 산출물 | `artifacts/{회사명}_{분기}/` |
-| 버전 관리 스킬 | `.claude/skills/git-version-manager/SKILL.md` |
+| 버전 관리 스킬 | `~/.claude/skills/git-version-manager/SKILL.md` (전역) |
 | GitHub 저장소 | `https://github.com/bubbletea255/earnings-call-harness` |
 
 ## 사람의 작업
@@ -80,4 +68,5 @@ artifacts/{회사명}_{분기}/
 | 날짜 | 변경 내용 | 대상 | 사유 |
 |---|---|---|---|
 | 2026-05-26 | 초기 구성 | 전체 | 어닝콜 반복 분석 자동화 하네스 생성 |
-| 2026-05-26 | git-version-manager 스킬 추가 | CLAUDE.md, .claude/skills/ | GitHub 버전 관리 자동화 |
+| 2026-05-30 | git-version-manager 스킬 추가 | CLAUDE.md, .claude/skills/ | GitHub 버전 관리 자동화 |
+| 2026-05-30 | git-version-manager 전역 이동 | ~/.claude/skills/ | 모든 프로젝트에서 재사용 가능하도록 전역화 |
