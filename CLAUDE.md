@@ -70,3 +70,4 @@ artifacts/{회사명}_{분기}/
 | 2026-05-26 | 초기 구성 | 전체 | 어닝콜 반복 분석 자동화 하네스 생성 |
 | 2026-05-30 | git-version-manager 스킬 추가 | CLAUDE.md, .claude/skills/ | GitHub 버전 관리 자동화 |
 | 2026-05-30 | git-version-manager 전역 이동 | ~/.claude/skills/ | 모든 프로젝트에서 재사용 가능하도록 전역화 |
+| 2026-05-31 | .gitignore에 docs/ 추가 | .gitignore | /저장 명령 대화 기록 GitHub 노출 방지 |
